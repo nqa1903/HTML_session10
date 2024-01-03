@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding : 0;
+    color: white;
+}
+
+.container{
+    width: 250px;
+    height: 100vh;
+    background: rgba(12, 106, 106, 0.471);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.distance{
+    margin: 4px;
+    cursor: pointer;
+    width: 95%;
+}
+
+i , span{
+    padding : 8px 16px;
+}
+
+.act:active{
+    background-color: black;
+}
